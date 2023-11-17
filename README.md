@@ -1,6 +1,7 @@
 # HomeworkSorter
 
 PROJECT TITLE: HomeWorkSorter
+
 PURPOSE OF PROJECT:  To Semi-Automate the process of organizing downloaded files 
 VERSION or DATE:  11/16/23
 HOW TO START THIS PROJECT: First you must add the library sqlite-jdbc-3.41.2.1 to the IDE which is located in the main folder of the program. Then You may run the program
