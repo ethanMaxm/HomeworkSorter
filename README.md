@@ -3,22 +3,32 @@
 PROJECT TITLE: HomeWorkSorter
 
 PURPOSE OF PROJECT:  To Semi-Automate the process of organizing downloaded files 
+
 VERSION or DATE:  11/16/23
+
 HOW TO START THIS PROJECT: First you must add the library sqlite-jdbc-3.41.2.1 to the IDE which is located in the main folder of the program. Then You may run the program
 AUTHORS: Ethanmaxm
+
 USER INSTRUCTIONS:
 
 The program has only been tested on Mac and windows.
-The program should works with google chrome but should work on all chromium browsers with a bit of additional user input, although I've only tested it on Microsoft edge.
+The program should works with google chrome but should work on all chromium browsers with a bit of additional user input, although I've 
+only tested it on Microsoft edge.
 
 
 Run the Main method.
 After the program is run for the first time, if you are not using google chrome, click the on the "move files via url menu" and then "select history” and try the following path to find the history file for your browser. (Google chrome is used as an example, but you should not actually need to do this if you are using google chrome).
+
 Windows
+
 C:\Users<username>\AppData\Local\Google\Chrome\User Data\Default\History
+
 C:\Users<username>\AppData\Local\Google\Chrome\User Data\Default\Cache\History
+
 macOS
+
 /Users/<username>/Library/Application Support/Google/Chrome/Default/History
+
 /Users/<username>/Library/Caches/Google/Chrome/Default/Cache/History
 
 After that click the add string button and select “add path” and click on the folder you would like to send files to.
