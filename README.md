@@ -6,8 +6,15 @@ PURPOSE OF PROJECT:  To Semi-Automate the process of organizing downloaded files
 
 VERSION or DATE:  11/16/23
 
+AUTHORS: EthanMaxm
+
+Description:
+
+This project allows the user to move all files downloaded from google chrome to a desired directory based off of one or more user inputted substrings. The user will associate a folder with a substring and then anything downloaded from a url that contains that substring will move to the desired location. NOTE: the url that the program checks will not necessarily be the one that chrome shows.
+
+The program also allows a user to move all files in one folder whose names contain a substring to another folder. 
+
 HOW TO START THIS PROJECT: First you must add the library sqlite-jdbc-3.41.2.1 to the IDE which is located in the main folder of the program. Then You may run the program
-AUTHORS: Ethanmaxm
 
 USER INSTRUCTIONS:
 
@@ -42,4 +49,4 @@ To delete a substring click not the delete button, the folder you would like to 
 To move files based off of their name return to the main menu and select "Move Files Via Name." Then select add download folder, the new path, then select the folder you would like to move files from. Then click on the button with that folders name and click new paths to select the folder you want files to be moved to. Then click on the new button to add a substring that the file names should contain. 
 Note: if the source folder and destination folder have the same name something will break. This will also happen if two destination folders have the same name and the same source folder, or if two source folders have the same name.
 
-To actually move the files either wait up to a minute or click the move files button. The move all files button moves all files from the source folder to the destination folder that have the substring in their name. The move files (not all) will only do this for all files added since the last time it was ran.
+To actually move the files either wait up to a minute or click the move files button. The move all files button moves all files from the source folder to the destination folder that have the substring in their name. The move files (not all) will only do this for all files added since the last time it was run.
